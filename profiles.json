@@ -1,7 +1,7 @@
 ﻿{
-"Version": 1.1,
+"Version": 1.2,
   "Settings": {
-    "Language": "RU",
+    "Language": "EN",
     "InstallTimeout": 300,
     "EnableRollback": true,
     "EnableHashCheck": true,
@@ -9,7 +9,7 @@
   },
 "Localization": {
     "RU": {
-      "Welcome": "Добро пожаловать в Start_Setup v18.5",
+      "Welcome": "Добро пожаловать в Start_Setup v19",
       "AdminRights": "Запрос прав администратора...",
       "EnsureWinget": "Проверка Winget в системе...",
       "RestorePoint": "Создание точки восстановления...",
