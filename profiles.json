@@ -1,0 +1,275 @@
+﻿{
+"Version": 1.1,
+  "Settings": {
+    "Language": "RU",
+    "InstallTimeout": 300,
+    "EnableRollback": true,
+    "EnableHashCheck": true,
+    "NotifyOnFinish": true
+  },
+"Localization": {
+    "RU": {
+      "Welcome": "Добро пожаловать в Start_Setup v18.5",
+      "AdminRights": "Запрос прав администратора...",
+      "EnsureWinget": "Проверка Winget в системе...",
+      "RestorePoint": "Создание точки восстановления...",
+      "ApplyTweaks": "Применение системных оптимизаций...",
+      "InstallStart": "Начинается установка пакетов...",
+      "FinalNote": "Установка завершена. Нажмите Enter для выхода.",
+      "Success": "Успешно",
+      "Skipped": "Пропущено",
+      "Failed": "Ошибка",
+      "RebootRequired": "ТРЕБУЕТСЯ ПЕРЕЗАГРУЗКА!",
+      "ProfileSelect": "Выберите профиль установки:",
+      "TweakProcess": "Выполняется:",
+      "TweakApplied": "применено",
+      "TweakSkipped": "уже настроено",
+      "navigate": "[^][v] навигация  [Enter] выбор",
+      "yes": "Да",
+      "no": "Нет",
+      "pfChecking": "Предполетная проверка...",
+      "simTitle": "СИМУЛЯЦИЯ: Прогноз сессии",
+      "simSpeed": "Скорость загрузки",
+      "simTotal": "Итого объем",
+      "simTime": "Оцененное время",
+      "simDisk": "Место на диске",
+      "simReboot": "Возможна перезагрузка",
+      "freezeDone": "Файл блокировки сохранен:",
+      "diffTitle": "Изменения с прошлого запуска",
+      "diffNoSnap": "Предыдущие снимки системы не найдены.",
+      "diffNew": "Новые",
+      "diffUpdated": "Обновленные",
+      "diffRemoved": "Удаленные",
+      "diffNone": "Изменений нет.",
+      "taskReg": "Планировщик: задача зарегистрирована",
+      "taskDel": "Планировщик: задача удалена",
+      "resuming": "Возобновление после перезагрузки...",
+      "update": "Обновление всех пакетов",
+      "dryRun": "ТЕСТОВЫЙ ЗАПУСК",
+      "rollbackStart": "Запуск отката изменений...",
+      "rollbackEmpty": "Нечего откатывать.",
+      "rollbackDone": "Откат завершен.",
+      "repairStart": "Запуск восстановления...",
+      "repairEmpty": "Файлы для восстановления не найдены.",
+      "repairDone": "Восстановление завершено",
+      "autoProfile": "Авто-определенный профиль",
+      "cancelled": "Отменено пользователем.",
+      "profileLabel": "Профиль",
+      "drivers": "Проверка драйверов...",
+      "chocoMissing": "Chocolatey не найден, устанавливаем...",
+      "sourceChoco": "через Chocolatey",
+      "sourceMsi": "через MSI/EXE",
+      "alreadyInst": "Уже установлено",
+      "attempt": "попытка",
+      "timeout": "Тайм-аут! Процесс остановлен.",
+      "lockedMode": "Режим фиксации версий",
+      "queue": "пакетов в очереди",
+      "mandatory": "обязательных",
+      "optional_word": "опциональных",
+      "installOptQ": "Установить необязательный пакет",
+      "report": "ФИНАЛЬНЫЙ ОТЧЕТ",
+      "summary": "Итоги",
+      "logsAt": "Логи",
+      "errorsAt": "Ошибки",
+      "openReport": "Открытие HTML-отчета...",
+      "cleanup": "Очистка временных файлов",
+      "done": "Готово",
+      "CleanQuery": "Удалить старые логи и временные файлы? (Y/N)",
+      "CleanSkip": "Очистка пропущена пользователем."
+    },
+    "EN": {
+      "Welcome": "Welcome to Start_Setup v18.5",
+      "AdminRights": "Requesting administrator rights...",
+      "EnsureWinget": "Checking Winget status...",
+      "RestorePoint": "Creating system restore point...",
+      "ApplyTweaks": "Applying system tweaks...",
+      "InstallStart": "Starting package installation...",
+      "FinalNote": "Setup finished. Press Enter to exit.",
+      "Success": "Success",
+      "Skipped": "Skipped",
+      "Failed": "Failed",
+      "RebootRequired": "REBOOT REQUIRED!",
+      "ProfileSelect": "Select installation profile:",
+      "TweakProcess": "Running:",
+      "TweakApplied": "applied",
+      "TweakSkipped": "already configured",
+      "navigate": "[^][v] navigate  [Enter] select",
+      "yes": "Yes",
+      "no": "No",
+      "pfChecking": "Running pre-flight checks...",
+      "simTitle": "SIMULATE: session forecast",
+      "simSpeed": "Connection speed",
+      "simTotal": "Total download",
+      "simTime": "Estimated time",
+      "simDisk": "Disk space required",
+      "simReboot": "Reboot may be required",
+      "freezeDone": "Lock file saved:",
+      "diffTitle": "Changes since last run",
+      "diffNoSnap": "No previous snapshot.",
+      "diffNew": "New",
+      "diffUpdated": "Updated",
+      "diffRemoved": "Removed",
+      "diffNone": "No changes.",
+      "taskReg": "Scheduled task registered.",
+      "taskDel": "Scheduled task removed.",
+      "resuming": "Resuming after reboot...",
+      "update": "Updating all packages",
+      "dryRun": "DRY RUN",
+      "rollbackStart": "Starting rollback...",
+      "rollbackEmpty": "Nothing to roll back.",
+      "rollbackDone": "Rollback complete.",
+      "repairStart": "Starting repair...",
+      "repairEmpty": "Nothing to repair.",
+      "repairDone": "Repair complete",
+      "autoProfile": "Auto-detected profile",
+      "cancelled": "Cancelled.",
+      "profileLabel": "Profile",
+      "drivers": "Checking driver updates",
+      "chocoMissing": "Chocolatey not found, installing...",
+      "sourceChoco": "via Chocolatey",
+      "sourceMsi": "via MSI/EXE",
+      "alreadyInst": "Already installed",
+      "attempt": "attempt",
+      "timeout": "Timeout! Process killed.",
+      "lockedMode": "Locked versions mode",
+      "queue": "packages to process",
+      "mandatory": "required",
+      "optional_word": "optional",
+      "installOptQ": "Install optional",
+      "report": "FINAL REPORT",
+      "summary": "Summary",
+      "logsAt": "Logs",
+      "errorsAt": "Errors",
+      "openReport": "Opening HTML report...",
+      "cleanup": "Cleaning temporary files",
+      "done": "Done",
+      "CleanQuery": "Delete old logs and temp files? (Y/N)",
+      "CleanSkip": "Cleanup skipped by user."
+    }
+  },
+  "Tweaks": {
+    "UltimatePerformance": {
+      "Names": {
+        "RU": "План максимальной производительности (Power)",
+        "EN": "Ultimate Performance power plan"
+      },
+      "Enabled": true,
+      "Action": "powercfg"
+    },
+    "DisableTelemetry": {
+      "Names": {
+        "RU": "Отключение телеметрии и сбора данных",
+        "EN": "Disable Windows telemetry"
+      },
+      "Enabled": true,
+      "Action": "registry",
+      "Path": "HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection",
+      "Name": "AllowTelemetry",
+      "Type": "REG_DWORD",
+      "Value": "0"
+    },
+    "DisableXboxGameBar": {
+      "Names": {
+        "RU": "Отключение Xbox Game Bar",
+        "EN": "Disable Xbox Game Bar"
+      },
+      "Enabled": false,
+      "Action": "registry",
+      "Path": "HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\GameDVR",
+      "Name": "AppCaptureEnabled",
+      "Type": "REG_DWORD",
+      "Value": "0"
+    }
+  },
+  "Universal": [
+    { "Name": "Visual C++ 2015-2022 x64", "ID": "Microsoft.VCRedist.2015+.x64", "Optional": false, "Source": "winget" },
+    { "Name": "DirectX Runtime", "ID": "Microsoft.DirectX", "Optional": false, "Source": "winget" }
+  ],
+  "OwnProgramPackage": {
+    "Names": {
+      "RU": "Личный набор програм",
+      "EN": "Own program package"
+    },
+    "Apps": [
+      { "Name": "WinRAR", "ID": "RARLab.WinRAR", "Optional": false, "Source": "winget", "CheckPath": "C:\\Program Files\\WinRAR\\WinRAR.exe" },
+      { "Name": "VS Code", "ID": "Microsoft.VisualStudioCode", "Optional": false, "Source": "winget" },
+      { "Name": "Steam", "ID": "Valve.Steam", "Optional": false, "Source": "winget" },
+      { "Name": "OBS Studio", "ID": "OBSProject.OBSStudio", "Optional": true, "Source": "winget" },
+      { "Name": "PowerToys", "ID": "Microsoft.PowerToys", "Optional": false, "Source": "winget" }
+    ]
+  },
+  "Minimal": {
+    "Names": {
+      "RU": "Базовый набор: архиватор и блокнот",
+      "EN": "Minimal: Bare essentials only"
+    },
+    "Apps": [
+      { "Name": "WinRAR", "ID": "RARLab.WinRAR", "Optional": false, "Source": "winget", "CheckPath": "C:\\Program Files\\WinRAR\\WinRAR.exe" },
+      { "Name": "Notepad++", "ID": "Notepad++.Notepad++", "Optional": false, "Source": "winget", "CheckPath": "C:\\Program Files\\Notepad++\\notepad++.exe" }
+    ]
+  },
+  "Developer": {
+    "Names": {
+      "RU": "Среда разработки: VS Code, Git, Python, Docker",
+      "EN": "Dev environment: VS Code, Git, Python, Docker"
+    },
+    "Apps": [
+      { "Name": "VS Code", "ID": "Microsoft.VisualStudioCode", "Optional": false, "Source": "winget" },
+      { "Name": "Git", "ID": "Git.Git", "Optional": false, "Source": "winget" },
+      { "Name": "Python 3.12", "ID": "Python.Python.3.12", "Optional": false, "Source": "winget" },
+      { "Name": "Node.js LTS", "ID": "OpenJS.NodeJS.LTS", "Optional": true, "Source": "winget" },
+      { "Name": "Docker Desktop", "ID": "Docker.DockerDesktop", "Optional": true, "Source": "winget" },
+      { "Name": "Windows Terminal", "ID": "Microsoft.WindowsTerminal", "Optional": false, "Source": "winget" }
+    ]
+  },
+  "Work": {
+    "Names": {
+      "RU": "Рабочий профиль: Разработка + Мессенджеры + Браузер",
+      "EN": "Work profile: Developer + browser + communications"
+    },
+    "Extends": "Developer",
+    "Apps": [
+      { "Name": "Google Chrome", "ID": "Google.Chrome", "Optional": false, "Source": "winget" },
+      { "Name": "Telegram", "ID": "Telegram.TelegramDesktop", "Optional": true, "Source": "winget" },
+      { "Name": "Slack", "ID": "SlackTechnologies.Slack", "Optional": true, "Source": "winget" },
+      { "Name": "PowerToys", "ID": "Microsoft.PowerToys", "Optional": false, "Source": "winget" }
+    ]
+  },
+  "Gaming": {
+    "Names": {
+      "RU": "Игровой профиль: Steam, Discord, OBS, мониторинг",
+      "EN": "Gaming PC: Steam, Discord, OBS, utilities"
+    },
+    "Apps": [
+      { "Name": "Steam", "ID": "Valve.Steam", "Optional": false, "Source": "winget" },
+      { "Name": "Discord", "ID": "Discord.Discord", "Optional": true, "Source": "winget" },
+      { "Name": "OBS Studio", "ID": "OBSProject.OBSStudio", "Optional": true, "Source": "winget" },
+      { "Name": "MSI Afterburner", "ID": "Guru3D.Afterburner", "Optional": true, "Source": "winget" },
+      { "Name": "HWiNFO64", "ID": "REALiX.HWiNFO", "Optional": true, "Source": "winget" }
+    ]
+  },
+  "Office": {
+    "Names": {
+      "RU": "Офисный профиль: Документы, Видеосвязь, VLC",
+      "EN": "Office PC: browser, documents, video calls"
+    },
+    "Apps": [
+      { "Name": "Google Chrome", "ID": "Google.Chrome", "Optional": false, "Source": "winget" },
+      { "Name": "Zoom", "ID": "Zoom.Zoom", "Optional": false, "Source": "winget" },
+      { "Name": "LibreOffice", "ID": "TheDocumentFoundation.LibreOffice", "Optional": true, "Source": "winget" },
+      { "Name": "Acrobat Reader", "ID": "Adobe.Acrobat.Reader.64-bit", "Optional": false, "Source": "winget" },
+      { "Name": "VLC", "ID": "VideoLAN.VLC", "Optional": false, "Source": "winget" }
+    ]
+  },
+  "Server": {
+    "Names": {
+      "RU": "Серверный профиль: Администрирование и мониторинг",
+      "EN": "Server environment: administration and monitoring"
+    },
+    "Apps": [
+      { "Name": "WinSCP", "ID": "WinSCP.WinSCP", "Optional": false, "Source": "winget" },
+      { "Name": "PuTTY", "ID": "PuTTY.PuTTY", "Optional": false, "Source": "winget" },
+      { "Name": "Wireshark", "ID": "WiresharkFoundation.Wireshark", "Optional": true, "Source": "winget" }
+    ]
+  }
+}
