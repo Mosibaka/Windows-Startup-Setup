@@ -1,5 +1,5 @@
 {
-    "Version":  1.5,
+    "Version":  1.2,
     "Settings":  {
                      "Language":  "EN",
                      "InstallTimeout":  300,
@@ -182,12 +182,6 @@
                                           }
                },
     "Universal":  [
-                        {
-                          "Name":  "Visual C++2005 x64",
-                          "ID":  "Microsoft.VCRedist.2005.x64",
-                          "Optional":  false,
-                          "Source":  "winget"
-                      },
                       {
                           "Name":  "Visual C++ 2005 x86",
                           "ID":  "Microsoft.VCRedist.2005.x86",
@@ -195,11 +189,12 @@
                           "Source":  "winget"
                       },
                       {
-                          "Name":  "Visual C++ 2015-2022 x64",
-                          "ID":  "Microsoft.VCRedist.2015+.x64",
+                          "Name":  "Visual C++2005 x64",
+                          "ID":  "Microsoft.VCRedist.2005.x64",
                           "Optional":  false,
                           "Source":  "winget"
                       },
+
                       {
                           "Name":  "Visual C++ 2008 x86",
                           "ID":  "Microsoft.VCRedist.2008.x86",
@@ -245,6 +240,18 @@
                       {
                           "Name":  "Visual C++ 2013 x64",
                           "ID":  "Microsoft.VCRedist.2013.x64",
+                          "Optional":  false,
+                          "Source":  "winget"
+                      },
+                      {
+                          "Name":  "Visual C++ 2015-2022 x86",
+                          "ID":  "Microsoft.VCRedist.2015+.x86",
+                          "Optional":  false,
+                          "Source":  "winget"
+                      },
+                      {
+                         "Name":  "Visual C++ 2015-2022 x64",
+                          "ID":  "Microsoft.VCRedist.2015+.x64",
                           "Optional":  false,
                           "Source":  "winget"
                       },
